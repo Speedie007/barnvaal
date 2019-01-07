@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8HteOP4BT0SnLf3gmtA6/wAAAAACAAAAAAAQZgAAAAEAACAAAABJK2HLvnUC+dIvU+LQiuTOj/ziQO9IAL2jbiszAoCM7QAAAAAOgAAAAAIAACAAAACQxIbeW/LW2FKvqJ284xgA5vVT/mnC9VhCYVymE0BeNSAAAABlwx5zsh4FRUMW0c7lSzID3aw+EoZPOPti4OhkM3BO1EAAAABIMRFPLi6QiwJWKN5LVdghSIvd0b3odDe/Wu573933MXS/nkAwmODHUtp+6a3t9pKmELaQaTttfQhLAE+wk6UY</EncryptedPassword>
+    <_PublishTargetUrl>ftp://197.189.255.157/httpdocs</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/11/2013 09:10:04</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/11/2013 09:10:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>09/11/2013 02:09:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>09/11/2013 02:09:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>09/11/2013 02:09:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>09/11/2013 01:49:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>09/11/2013 01:49:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>09/11/2013 01:50:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>09/11/2013 01:49:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>09/11/2013 01:50:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>09/11/2013 01:50:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>09/11/2013 01:50:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>09/11/2013 01:50:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>09/11/2013 01:50:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/06/2013 13:33:54</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/RiccoTest2.dll">
+      <publishTime>12/14/2018 10:35:58</publishTime>
+    </File>
+    <File Include="bin/RiccoTest2.pdb">
+      <publishTime>12/14/2018 10:35:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>10/01/2013 20:54:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>10/01/2013 20:54:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/04/2013 02:27:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>10/01/2013 20:54:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>10/01/2013 20:54:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>10/01/2013 20:54:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>10/01/2013 20:54:26</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/17/2013 17:03:52</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="css/business-casual.css">
+      <publishTime>12/13/2018 16:25:10</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="img/bg.jpg">
+      <publishTime>12/13/2018 16:25:11</publishTime>
+    </File>
+    <File Include="img/intro-pic.jpg">
+      <publishTime>12/13/2018 16:25:11</publishTime>
+    </File>
+    <File Include="img/slide-1.jpg">
+      <publishTime>12/13/2018 16:25:11</publishTime>
+    </File>
+    <File Include="img/slide-2.jpg">
+      <publishTime>12/13/2018 16:25:11</publishTime>
+    </File>
+    <File Include="img/slide-3.jpg">
+      <publishTime>12/13/2018 16:25:11</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="Views/About/Index.cshtml">
+      <publishTime>12/13/2018 16:25:10</publishTime>
+    </File>
+    <File Include="Views/Blog/Index.cshtml">
+      <publishTime>12/13/2018 16:25:10</publishTime>
+    </File>
+    <File Include="Views/Contact/Index.cshtml">
+      <publishTime>12/13/2018 17:08:28</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>12/14/2018 10:35:03</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>12/14/2018 10:34:05</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>12/13/2018 16:25:08</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/13/2018 16:28:41</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
