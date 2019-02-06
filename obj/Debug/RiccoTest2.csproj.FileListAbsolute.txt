@@ -86,3 +86,34 @@ C:\GitRepo\barnvaal\obj\Debug\RiccoTest2.csproj.CoreCompileInputs.cache
 C:\GitRepo\barnvaal\obj\Debug\RiccoTest2.csproj.CopyComplete
 C:\GitRepo\barnvaal\obj\Debug\RiccoTest2.dll
 C:\GitRepo\barnvaal\obj\Debug\RiccoTest2.pdb
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.dll.config
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.dll
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.pdb
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Newtonsoft.Json.dll
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\System.Web.Helpers.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\System.Web.Mvc.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\System.Web.Optimization.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\System.Web.Razor.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\System.Web.WebPages.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\System.Web.WebPages.Razor.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Antlr3.Runtime.pdb
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.SqlServer.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.Owin.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.Owin.Security.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Debug\RiccoTest2.csprojAssemblyReference.cache
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Debug\RiccoTest2.csproj.CoreCompileInputs.cache
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Debug\RiccoTest2.csproj.CopyComplete
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Debug\RiccoTest2.dll
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Debug\RiccoTest2.pdb
