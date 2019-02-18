@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
 using RiccoTest2.Models;
-using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
 
 namespace RiccoTest2.Context
 {
@@ -14,5 +11,6 @@ namespace RiccoTest2.Context
         { }
 
         public System.Data.Entity.DbSet<AppUser> AppUsers { get; set; }
+        public virtual DbSet<MailModel> EmailModels { get; set; }
     }
 }

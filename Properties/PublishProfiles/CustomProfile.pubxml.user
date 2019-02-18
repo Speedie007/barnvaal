@@ -6,180 +6,552 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8HteOP4BT0SnLf3gmtA6/wAAAAACAAAAAAAQZgAAAAEAACAAAABJK2HLvnUC+dIvU+LQiuTOj/ziQO9IAL2jbiszAoCM7QAAAAAOgAAAAAIAACAAAACQxIbeW/LW2FKvqJ284xgA5vVT/mnC9VhCYVymE0BeNSAAAABlwx5zsh4FRUMW0c7lSzID3aw+EoZPOPti4OhkM3BO1EAAAABIMRFPLi6QiwJWKN5LVdghSIvd0b3odDe/Wu573933MXS/nkAwmODHUtp+6a3t9pKmELaQaTttfQhLAE+wk6UY</EncryptedPassword>
-    <_PublishTargetUrl>ftp://197.189.255.157/httpdocs</_PublishTargetUrl>
+    <_PublishTargetUrl>ftp://barnvaal.co.za/httpdocs</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACem5Wzao2UC/AqMstC0jGAAAAAACAAAAAAAQZgAAAAEAACAAAABhExMCu4vfPWmSKI0lDPUwC0HVk/AVxHMmKx1vxfoFPwAAAAAOgAAAAAIAACAAAAAnF22AzXgzBKftCyLWEETuiiZlvxtaouKSF3mICq677SAAAAA6owZXQWUu1CNFCBSpW1NMuX9PsiIWv6C4Wc6LtqcFB0AAAADxv8o99qRcpYqpdSfBt4Wo2On1Hn+iJo8MVS3rJJuk2F16TGFEAuxf/jmD06MNFfo8bZeMDC99DhYjXhRLMDyl</EncryptedPassword>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>02/22/2013 08:43:40</publishTime>
-    </File>
-    <File Include="bin/Antlr3.Runtime.pdb">
-      <publishTime>02/22/2013 08:43:40</publishTime>
+      <publishTime>02/06/2019 21:20:01</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>09/11/2013 09:10:04</publishTime>
+      <publishTime>03/02/2015 19:32:26</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>09/11/2013 09:10:04</publishTime>
+      <publishTime>03/02/2015 19:32:26</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
-      <publishTime>09/11/2013 02:09:50</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
-      <publishTime>09/11/2013 02:09:50</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
-      <publishTime>09/11/2013 02:09:50</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.dll">
-      <publishTime>09/11/2013 01:49:58</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
-      <publishTime>09/11/2013 01:49:56</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
-      <publishTime>09/11/2013 01:50:00</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.dll">
-      <publishTime>09/11/2013 01:49:58</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
-      <publishTime>09/11/2013 01:50:00</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Google.dll">
-      <publishTime>09/11/2013 01:50:00</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
-      <publishTime>09/11/2013 01:50:02</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
-      <publishTime>09/11/2013 01:50:02</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
-      <publishTime>09/11/2013 01:50:02</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>07/25/2012 11:48:56</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>06/06/2013 13:33:54</publishTime>
+      <publishTime>01/29/2016 00:22:24</publishTime>
     </File>
     <File Include="bin/Owin.dll">
-      <publishTime>11/13/2012 12:19:34</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/RiccoTest2.dll">
-      <publishTime>12/14/2018 10:35:58</publishTime>
+      <publishTime>02/18/2019 19:27:18</publishTime>
     </File>
     <File Include="bin/RiccoTest2.pdb">
-      <publishTime>12/14/2018 10:35:58</publishTime>
+      <publishTime>02/18/2019 19:27:18</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>10/01/2013 20:54:22</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>09/04/2013 02:27:04</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>10/01/2013 20:54:24</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>10/01/2013 20:54:26</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>07/17/2013 17:03:52</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="css/bootstrap-theme.css">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="css/bootstrap-theme.min.css">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="css/bootstrap.css">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/10/2019 19:24:58</publishTime>
     </File>
     <File Include="css/bootstrap.min.css">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="css/business-casual.css">
-      <publishTime>12/13/2018 16:25:10</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:01</publishTime>
+    </File>
+    <File Include="img/121.jpg">
+      <publishTime>02/18/2019 18:47:59</publishTime>
+    </File>
+    <File Include="img/5.jpg">
+      <publishTime>02/18/2019 18:57:07</publishTime>
+    </File>
+    <File Include="img/about1.jpg">
+      <publishTime>02/18/2019 18:56:52</publishTime>
+    </File>
+    <File Include="img/about2.jpg">
+      <publishTime>02/13/2019 19:24:02</publishTime>
+    </File>
+    <File Include="img/about3.jpg">
+      <publishTime>02/18/2019 18:56:39</publishTime>
     </File>
     <File Include="img/bg.jpg">
-      <publishTime>12/13/2018 16:25:11</publishTime>
+      <publishTime>02/18/2019 18:49:53</publishTime>
     </File>
-    <File Include="img/intro-pic.jpg">
-      <publishTime>12/13/2018 16:25:11</publishTime>
+    <File Include="img/homepage1.PNG">
+      <publishTime>02/18/2019 18:56:12</publishTime>
     </File>
-    <File Include="img/slide-1.jpg">
-      <publishTime>12/13/2018 16:25:11</publishTime>
+    <File Include="img/homepage2.PNG">
+      <publishTime>02/18/2019 18:55:58</publishTime>
     </File>
-    <File Include="img/slide-2.jpg">
-      <publishTime>12/13/2018 16:25:11</publishTime>
+    <File Include="img/homepage3.PNG">
+      <publishTime>02/18/2019 18:55:42</publishTime>
     </File>
-    <File Include="img/slide-3.jpg">
-      <publishTime>12/13/2018 16:25:11</publishTime>
+    <File Include="img/homepage4.PNG">
+      <publishTime>02/18/2019 18:55:29</publishTime>
+    </File>
+    <File Include="img/homepage5.PNG">
+      <publishTime>02/18/2019 18:55:14</publishTime>
+    </File>
+    <File Include="img/homepage6.PNG">
+      <publishTime>02/18/2019 18:54:59</publishTime>
+    </File>
+    <File Include="img/homepage7.PNG">
+      <publishTime>02/18/2019 18:54:45</publishTime>
+    </File>
+    <File Include="img/homepage8.PNG">
+      <publishTime>02/18/2019 18:54:31</publishTime>
+    </File>
+    <File Include="img/homepage9.PNG">
+      <publishTime>02/18/2019 18:54:18</publishTime>
+    </File>
+    <File Include="img/hp.jpg">
+      <publishTime>02/18/2019 18:54:00</publishTime>
+    </File>
+    <File Include="img/images/1.jpg">
+      <publishTime>02/13/2019 19:53:36</publishTime>
+    </File>
+    <File Include="img/images/10.jpg">
+      <publishTime>02/18/2019 18:58:25</publishTime>
+    </File>
+    <File Include="img/images/11.jpg">
+      <publishTime>02/18/2019 18:58:40</publishTime>
+    </File>
+    <File Include="img/images/12.jpg">
+      <publishTime>02/18/2019 18:59:06</publishTime>
+    </File>
+    <File Include="img/images/13.jpg">
+      <publishTime>02/18/2019 18:59:22</publishTime>
+    </File>
+    <File Include="img/images/14.jpg">
+      <publishTime>02/18/2019 18:59:33</publishTime>
+    </File>
+    <File Include="img/images/15.jpg">
+      <publishTime>02/18/2019 18:59:48</publishTime>
+    </File>
+    <File Include="img/images/16.jpg">
+      <publishTime>02/18/2019 18:59:59</publishTime>
+    </File>
+    <File Include="img/images/17.jpg">
+      <publishTime>02/18/2019 19:00:16</publishTime>
+    </File>
+    <File Include="img/images/18.jpg">
+      <publishTime>02/18/2019 19:00:27</publishTime>
+    </File>
+    <File Include="img/images/19.jpg">
+      <publishTime>02/18/2019 19:00:36</publishTime>
+    </File>
+    <File Include="img/images/2.jpg">
+      <publishTime>02/13/2019 19:52:32</publishTime>
+    </File>
+    <File Include="img/images/20.jpg">
+      <publishTime>02/18/2019 19:00:45</publishTime>
+    </File>
+    <File Include="img/images/21.jpg">
+      <publishTime>02/18/2019 19:00:55</publishTime>
+    </File>
+    <File Include="img/images/22.jpg">
+      <publishTime>02/18/2019 19:01:07</publishTime>
+    </File>
+    <File Include="img/images/23.jpg">
+      <publishTime>02/18/2019 19:01:18</publishTime>
+    </File>
+    <File Include="img/images/24.jpg">
+      <publishTime>02/18/2019 19:01:28</publishTime>
+    </File>
+    <File Include="img/images/25.jpg">
+      <publishTime>02/18/2019 19:01:38</publishTime>
+    </File>
+    <File Include="img/images/26.jpg">
+      <publishTime>02/18/2019 19:01:48</publishTime>
+    </File>
+    <File Include="img/images/27.jpg">
+      <publishTime>02/18/2019 19:01:57</publishTime>
+    </File>
+    <File Include="img/images/28.jpg">
+      <publishTime>02/18/2019 19:02:08</publishTime>
+    </File>
+    <File Include="img/images/29.jpg">
+      <publishTime>02/18/2019 19:02:20</publishTime>
+    </File>
+    <File Include="img/images/3.jpg">
+      <publishTime>02/06/2019 21:20:02</publishTime>
+    </File>
+    <File Include="img/images/30.jpg">
+      <publishTime>02/18/2019 19:02:32</publishTime>
+    </File>
+    <File Include="img/images/31.jpg">
+      <publishTime>02/18/2019 19:02:44</publishTime>
+    </File>
+    <File Include="img/images/32.jpg">
+      <publishTime>02/18/2019 19:02:52</publishTime>
+    </File>
+    <File Include="img/images/33.jpg">
+      <publishTime>02/18/2019 19:03:01</publishTime>
+    </File>
+    <File Include="img/images/34.jpg">
+      <publishTime>02/18/2019 19:03:10</publishTime>
+    </File>
+    <File Include="img/images/35.jpg">
+      <publishTime>02/18/2019 19:03:47</publishTime>
+    </File>
+    <File Include="img/images/36.jpg">
+      <publishTime>02/18/2019 19:03:57</publishTime>
+    </File>
+    <File Include="img/images/37.jpg">
+      <publishTime>02/18/2019 19:04:08</publishTime>
+    </File>
+    <File Include="img/images/38.jpg">
+      <publishTime>02/18/2019 19:04:19</publishTime>
+    </File>
+    <File Include="img/images/39.jpg">
+      <publishTime>02/18/2019 19:04:30</publishTime>
+    </File>
+    <File Include="img/images/4.jpg">
+      <publishTime>02/13/2019 20:04:43</publishTime>
+    </File>
+    <File Include="img/images/40.jpg">
+      <publishTime>02/18/2019 19:04:41</publishTime>
+    </File>
+    <File Include="img/images/41.jpg">
+      <publishTime>02/18/2019 19:04:52</publishTime>
+    </File>
+    <File Include="img/images/42.jpg">
+      <publishTime>02/18/2019 19:05:03</publishTime>
+    </File>
+    <File Include="img/images/43.jpg">
+      <publishTime>02/18/2019 19:05:13</publishTime>
+    </File>
+    <File Include="img/images/44.jpg">
+      <publishTime>02/18/2019 19:05:22</publishTime>
+    </File>
+    <File Include="img/images/45.jpg">
+      <publishTime>02/18/2019 19:05:31</publishTime>
+    </File>
+    <File Include="img/images/46.jpg">
+      <publishTime>02/18/2019 19:05:39</publishTime>
+    </File>
+    <File Include="img/images/47.jpg">
+      <publishTime>02/18/2019 19:05:48</publishTime>
+    </File>
+    <File Include="img/images/48.jpg">
+      <publishTime>02/18/2019 19:05:58</publishTime>
+    </File>
+    <File Include="img/images/49.jpg">
+      <publishTime>02/18/2019 19:06:08</publishTime>
+    </File>
+    <File Include="img/images/50.jpg">
+      <publishTime>02/18/2019 19:06:18</publishTime>
+    </File>
+    <File Include="img/images/51.jpg">
+      <publishTime>02/18/2019 19:06:27</publishTime>
+    </File>
+    <File Include="img/images/52.jpg">
+      <publishTime>02/18/2019 19:06:38</publishTime>
+    </File>
+    <File Include="img/images/53.jpg">
+      <publishTime>02/18/2019 19:06:57</publishTime>
+    </File>
+    <File Include="img/images/54.jpg">
+      <publishTime>02/18/2019 19:07:07</publishTime>
+    </File>
+    <File Include="img/images/55.jpg">
+      <publishTime>02/18/2019 19:07:16</publishTime>
+    </File>
+    <File Include="img/images/56.jpg">
+      <publishTime>02/18/2019 19:07:24</publishTime>
+    </File>
+    <File Include="img/images/57.jpg">
+      <publishTime>02/18/2019 19:07:33</publishTime>
+    </File>
+    <File Include="img/images/58.jpg">
+      <publishTime>02/18/2019 19:07:41</publishTime>
+    </File>
+    <File Include="img/images/59.jpg">
+      <publishTime>02/18/2019 19:07:50</publishTime>
+    </File>
+    <File Include="img/images/6.jpg">
+      <publishTime>02/18/2019 18:57:21</publishTime>
+    </File>
+    <File Include="img/images/60.jpg">
+      <publishTime>02/18/2019 19:07:59</publishTime>
+    </File>
+    <File Include="img/images/61.jpg">
+      <publishTime>02/18/2019 19:08:09</publishTime>
+    </File>
+    <File Include="img/images/62.jpg">
+      <publishTime>02/18/2019 19:08:19</publishTime>
+    </File>
+    <File Include="img/images/63.jpg">
+      <publishTime>02/18/2019 19:08:28</publishTime>
+    </File>
+    <File Include="img/images/64.jpg">
+      <publishTime>02/18/2019 19:08:36</publishTime>
+    </File>
+    <File Include="img/images/65.jpg">
+      <publishTime>02/18/2019 19:08:45</publishTime>
+    </File>
+    <File Include="img/images/66.jpg">
+      <publishTime>02/18/2019 19:08:53</publishTime>
+    </File>
+    <File Include="img/images/67.jpg">
+      <publishTime>02/18/2019 19:09:01</publishTime>
+    </File>
+    <File Include="img/images/68.jpg">
+      <publishTime>02/18/2019 19:09:11</publishTime>
+    </File>
+    <File Include="img/images/69.jpg">
+      <publishTime>02/18/2019 19:09:21</publishTime>
+    </File>
+    <File Include="img/images/7.jpg">
+      <publishTime>02/18/2019 18:57:39</publishTime>
+    </File>
+    <File Include="img/images/70.jpg">
+      <publishTime>02/18/2019 19:09:29</publishTime>
+    </File>
+    <File Include="img/images/71.jpg">
+      <publishTime>02/18/2019 19:09:38</publishTime>
+    </File>
+    <File Include="img/images/72.jpg">
+      <publishTime>02/18/2019 19:09:52</publishTime>
+    </File>
+    <File Include="img/images/73.jpg">
+      <publishTime>02/18/2019 19:10:02</publishTime>
+    </File>
+    <File Include="img/images/74.jpg">
+      <publishTime>02/18/2019 19:10:13</publishTime>
+    </File>
+    <File Include="img/images/75.jpg">
+      <publishTime>02/18/2019 19:10:22</publishTime>
+    </File>
+    <File Include="img/images/76.jpg">
+      <publishTime>02/18/2019 19:10:32</publishTime>
+    </File>
+    <File Include="img/images/78.jpg">
+      <publishTime>02/18/2019 19:10:41</publishTime>
+    </File>
+    <File Include="img/images/79.jpg">
+      <publishTime>02/18/2019 19:10:53</publishTime>
+    </File>
+    <File Include="img/images/8.jpg">
+      <publishTime>02/18/2019 18:58:00</publishTime>
+    </File>
+    <File Include="img/images/80.jpg">
+      <publishTime>02/18/2019 19:11:11</publishTime>
+    </File>
+    <File Include="img/images/81.jpg">
+      <publishTime>02/18/2019 19:11:20</publishTime>
+    </File>
+    <File Include="img/images/82.jpg">
+      <publishTime>02/18/2019 19:11:29</publishTime>
+    </File>
+    <File Include="img/images/83.jpg">
+      <publishTime>02/18/2019 19:11:38</publishTime>
+    </File>
+    <File Include="img/images/84.jpg">
+      <publishTime>02/18/2019 19:11:48</publishTime>
+    </File>
+    <File Include="img/images/85.jpg">
+      <publishTime>02/18/2019 19:11:57</publishTime>
+    </File>
+    <File Include="img/images/86.jpg">
+      <publishTime>02/18/2019 19:12:06</publishTime>
+    </File>
+    <File Include="img/images/87.jpg">
+      <publishTime>02/18/2019 19:12:15</publishTime>
+    </File>
+    <File Include="img/images/88.jpg">
+      <publishTime>02/18/2019 19:12:23</publishTime>
+    </File>
+    <File Include="img/images/89.jpg">
+      <publishTime>02/18/2019 19:12:31</publishTime>
+    </File>
+    <File Include="img/images/9.jpg">
+      <publishTime>02/18/2019 18:58:13</publishTime>
+    </File>
+    <File Include="img/IMG_0766.JPG">
+      <publishTime>02/18/2019 18:53:34</publishTime>
+    </File>
+    <File Include="img/IMG_20181124_084508.jpg">
+      <publishTime>02/18/2019 18:53:20</publishTime>
+    </File>
+    <File Include="img/into-pic.jpg">
+      <publishTime>02/18/2019 18:53:05</publishTime>
+    </File>
+    <File Include="img/page10.PNG">
+      <publishTime>02/18/2019 18:52:49</publishTime>
+    </File>
+    <File Include="img/page11.PNG">
+      <publishTime>02/18/2019 18:52:34</publishTime>
+    </File>
+    <File Include="img/page12.PNG">
+      <publishTime>02/18/2019 18:52:20</publishTime>
+    </File>
+    <File Include="img/page13.PNG">
+      <publishTime>02/14/2019 08:44:22</publishTime>
+    </File>
+    <File Include="img/page14.PNG">
+      <publishTime>02/18/2019 18:51:53</publishTime>
+    </File>
+    <File Include="img/page15.PNG">
+      <publishTime>02/18/2019 18:51:32</publishTime>
+    </File>
+    <File Include="img/page16.PNG">
+      <publishTime>02/18/2019 18:51:16</publishTime>
     </File>
     <File Include="js/bootstrap.js">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="js/bootstrap.min.js">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:02</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/18/2019 12:59:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>02/18/2019 12:59:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>02/18/2019 12:59:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>02/18/2019 12:59:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>02/18/2019 12:59:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>02/18/2019 12:59:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>02/18/2019 12:59:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/18/2019 12:59:25</publishTime>
     </File>
     <File Include="Views/About/Index.cshtml">
-      <publishTime>12/13/2018 16:25:10</publishTime>
+      <publishTime>02/15/2019 12:09:51</publishTime>
     </File>
     <File Include="Views/Blog/Index.cshtml">
-      <publishTime>12/13/2018 16:25:10</publishTime>
+      <publishTime>02/15/2019 11:44:51</publishTime>
     </File>
     <File Include="Views/Contact/Index.cshtml">
-      <publishTime>12/13/2018 17:08:28</publishTime>
+      <publishTime>02/18/2019 13:33:00</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>12/14/2018 10:35:03</publishTime>
+      <publishTime>02/16/2019 19:21:18</publishTime>
+    </File>
+    <File Include="Views/MailModels/Create.cshtml">
+      <publishTime>02/18/2019 12:59:17</publishTime>
+    </File>
+    <File Include="Views/MailModels/Delete.cshtml">
+      <publishTime>02/18/2019 12:59:18</publishTime>
+    </File>
+    <File Include="Views/MailModels/Details.cshtml">
+      <publishTime>02/18/2019 12:59:19</publishTime>
+    </File>
+    <File Include="Views/MailModels/Edit.cshtml">
+      <publishTime>02/18/2019 12:59:20</publishTime>
+    </File>
+    <File Include="Views/MailModels/Index.cshtml">
+      <publishTime>02/18/2019 12:59:21</publishTime>
+    </File>
+    <File Include="Views/MailModels1/Create.cshtml">
+      <publishTime>02/18/2019 13:20:48</publishTime>
+    </File>
+    <File Include="Views/MailModels1/Delete.cshtml">
+      <publishTime>02/18/2019 13:20:48</publishTime>
+    </File>
+    <File Include="Views/MailModels1/Details.cshtml">
+      <publishTime>02/18/2019 13:20:49</publishTime>
+    </File>
+    <File Include="Views/MailModels1/Edit.cshtml">
+      <publishTime>02/18/2019 13:20:50</publishTime>
+    </File>
+    <File Include="Views/MailModels1/Index.cshtml">
+      <publishTime>02/18/2019 13:20:50</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:01</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>12/14/2018 10:34:05</publishTime>
+      <publishTime>02/18/2019 19:26:50</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/06/2019 21:20:01</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>12/13/2018 16:25:08</publishTime>
+      <publishTime>02/11/2019 15:54:00</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/13/2018 16:28:41</publishTime>
+      <publishTime>02/18/2019 18:35:00</publishTime>
     </File>
   </ItemGroup>
 </Project>
