@@ -14,6 +14,8 @@ namespace RiccoTest2.Models
 
         public virtual string MessageBody { get; set; } // any text
         public virtual string MessageSubject { get; set; } //any text
+        [Required]
+        [EmailAddress]
         public virtual string FromAddress { get; set; } //the email address from which the email message is being sent.
         public virtual string ToAddress { get; set; } // Eamil Address that the message must be sent to.
         public virtual string ContactNumber { get; set; }
