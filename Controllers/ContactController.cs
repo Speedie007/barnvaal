@@ -41,41 +41,63 @@ namespace RiccoTest2.Controllers
 
         [HttpPost]
         public ActionResult Index(MailModel Model)
-
         {
-            smtpClient = new SmtpClient(Model.SMTP_HOST, Model.SMTP_PORT);
 
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential(Model.AccountName, Model.AccountPassword);
+            if (ModelState.IsValid)
+            {
+                smtpClient = new SmtpClient(Model.SMTP_HOST, Model.SMTP_PORT);
 
-           // smtpClient.Credentials = credentials;
-            //smtpClient.UseDefaultCredentials = true;
-            
-            // Specify the email sender.
-            // Create a mailing address that includes a UTF8 character
-            // in the display name.
-            MailAddress from = new MailAddress(Model.FromAddress);
+                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential(Model.AccountName, Model.AccountPassword);
 
-            // Set destinations for the email message.
-            MailAddress to = new MailAddress(Model.ToAddress);
-            // Specify the message content.
-            MailMessage message = new MailMessage(from, to);
+                // smtpClient.Credentials = credentials;
+                //smtpClient.UseDefaultCredentials = true;
 
+                // Specify the email sender.
+                // Create a mailing address that includes a UTF8 character
+                // in the display name.
+                MailAddress from = new MailAddress(Model.FromAddress);
 
-            message.Body = Model.MessageBody + "\n From: " + Model.ContactPerson + " \n  Conatct Number is: " + Model.ContactNumber;
-
-            message.Subject = Model.MessageSubject;
-
-            // smtpClient.SendCompleted += new SendCompletedEventHandler(SendCompletedCallback);
-            // The userState can be any object that allows your callback 
-            // method to identify this send operation.
-            // For this example, the userToken is a string constant.
-            //string userState = "ThisCanBeAnyThingYouWant";
-            smtpClient.Send(message);
-            // Clean up.
-            message.Dispose();
+                // Set destinations for the email message.
+                MailAddress to = new MailAddress(Model.ToAddress);
+                // Specify the message content.
+                MailMessage message = new MailMessage(from, to);
 
 
-            return RedirectToAction("Index");
+                message.Body = Model.MessageBody + "\n From: " + Model.ContactPerson + " \n  Conatct Number is: " + Model.ContactNumber;
+
+                message.Subject = Model.MessageSubject;
+
+                // smtpClient.SendCompleted += new SendCompletedEventHandler(SendCompletedCallback);
+                // The userState can be any object that allows your callback 
+                // method to identify this send operation.
+                // For this example, the userToken is a string constant.
+                //string userState = "ThisCanBeAnyThingYouWant";
+                smtpClient.Send(message);
+                // Clean up.
+                message.Dispose();
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                if (Model.ContactPerson is null)
+                {
+                    Model.ContactPerson = "";
+                }
+                if (Model.MessageBody is null)
+                {
+                    Model.MessageBody = "";
+                }
+                if (Model.ContactNumber is null)
+                {
+                    Model.ContactNumber = "";
+                }
+                if (Model.FromAddress is null)
+                {
+                    Model.FromAddress = "";
+                }
+            }
+            return View(Model);
 
         }
 
