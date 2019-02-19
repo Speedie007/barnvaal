@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>ftp://barnvaal.co.za/httpdocs</_PublishTargetUrl>
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACem5Wzao2UC/AqMstC0jGAAAAAACAAAAAAAQZgAAAAEAACAAAABhExMCu4vfPWmSKI0lDPUwC0HVk/AVxHMmKx1vxfoFPwAAAAAOgAAAAAIAACAAAAAnF22AzXgzBKftCyLWEETuiiZlvxtaouKSF3mICq677SAAAAA6owZXQWUu1CNFCBSpW1NMuX9PsiIWv6C4Wc6LtqcFB0AAAADxv8o99qRcpYqpdSfBt4Wo2On1Hn+iJo8MVS3rJJuk2F16TGFEAuxf/jmD06MNFfo8bZeMDC99DhYjXhRLMDyl</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjp2i4nNeBE6Y/1dQep6uEwAAAAACAAAAAAAQZgAAAAEAACAAAAAvrFX/wczIw27Ortean3usN33zboPf3qi4i9IapVp3qwAAAAAOgAAAAAIAACAAAAALyASq3qq3GvHGM4PZpnRCdYuMjdm1572ZjbLERTnc7CAAAACgQx0a4ibAvHY/pqlzoRFZ1eSy84pyauUVPjqTHEwf+0AAAAB8D0r33mwGTm4QxxfyEvfX42NIcoaNF5yW4hOxm/+qxXUBD8OZHaYDZSvdyTeR0U5Wt7UXjrzlmLFMr7w6E73Z</EncryptedPassword>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">

@@ -2,6 +2,7 @@
 using System;
 using System.ComponentModel;
 using System.Net.Mail;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 
 namespace RiccoTest2.Controllers
@@ -19,12 +20,12 @@ namespace RiccoTest2.Controllers
 
             MailModel Model = new MailModel()
             {
-                AccountName = "Brendanw@mweb.co.za",
-                AccountPassword = "speedie3",
-                SMTP_HOST = "smtp.mweb.co.za",
+                AccountName = "amelia@barnvaal.co.za",
+                AccountPassword = "@MyLogin007",
+                SMTP_HOST = "webmail.barnvaal.co.za",
                 SMTP_PORT = 25,
                 MessageBody = "",
-                MessageSubject = "Test Messge From BarnVaal",
+                MessageSubject = "Customer Enquiry - From Web Site",
                 FromAddress = "",
                 ToAddress = "amelia@barnvaal.co.za",//"Riccoassasin@gmail.com",
                 ContactPerson = "",
@@ -39,14 +40,16 @@ namespace RiccoTest2.Controllers
 
 
         [HttpPost]
-        public ActionResult Index (MailModel Model)
+        public ActionResult Index(MailModel Model)
 
         {
             smtpClient = new SmtpClient(Model.SMTP_HOST, Model.SMTP_PORT);
 
             System.Net.NetworkCredential credentials = new System.Net.NetworkCredential(Model.AccountName, Model.AccountPassword);
 
-            smtpClient.Credentials = credentials;
+           // smtpClient.Credentials = credentials;
+            //smtpClient.UseDefaultCredentials = true;
+            
             // Specify the email sender.
             // Create a mailing address that includes a UTF8 character
             // in the display name.
@@ -62,14 +65,15 @@ namespace RiccoTest2.Controllers
 
             message.Subject = Model.MessageSubject;
 
-            smtpClient.SendCompleted += new SendCompletedEventHandler(SendCompletedCallback);
+            // smtpClient.SendCompleted += new SendCompletedEventHandler(SendCompletedCallback);
             // The userState can be any object that allows your callback 
             // method to identify this send operation.
             // For this example, the userToken is a string constant.
             //string userState = "ThisCanBeAnyThingYouWant";
             smtpClient.Send(message);
             // Clean up.
-            // message.Dispose();
+            message.Dispose();
+
 
             return RedirectToAction("Index");
 

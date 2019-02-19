@@ -11,3 +11,17 @@ C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Debug\RiccoTest2.cs
 C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Debug\RiccoTest2.dll
 C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Debug\RiccoTest2.pdb
 C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Debug\RiccoTest2.csprojAssemblyReference.cache
+C:\GitRepo\barnvaalnew\bin\RiccoTest2.dll.config
+C:\GitRepo\barnvaalnew\bin\RiccoTest2.dll
+C:\GitRepo\barnvaalnew\bin\RiccoTest2.pdb
+C:\GitRepo\barnvaalnew\bin\EntityFramework.dll
+C:\GitRepo\barnvaalnew\bin\EntityFramework.SqlServer.dll
+C:\GitRepo\barnvaalnew\bin\Newtonsoft.Json.dll
+C:\GitRepo\barnvaalnew\bin\System.Web.Mvc.dll
+C:\GitRepo\barnvaalnew\bin\EntityFramework.xml
+C:\GitRepo\barnvaalnew\bin\EntityFramework.SqlServer.xml
+C:\GitRepo\barnvaalnew\obj\Debug\RiccoTest2.csprojAssemblyReference.cache
+C:\GitRepo\barnvaalnew\obj\Debug\RiccoTest2.csproj.CoreCompileInputs.cache
+C:\GitRepo\barnvaalnew\obj\Debug\RiccoTest2.csproj.CopyComplete
+C:\GitRepo\barnvaalnew\obj\Debug\RiccoTest2.dll
+C:\GitRepo\barnvaalnew\obj\Debug\RiccoTest2.pdb
