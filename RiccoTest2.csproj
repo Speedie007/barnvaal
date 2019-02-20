@@ -188,8 +188,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="img\121.jpg" />
+    <Content Include="img\35.jpg" />
     <Content Include="img\5.jpg" />
     <Content Include="img\about1.jpg" />
+    <Content Include="img\about23.jpg" />
     <Content Include="img\about3.jpg" />
     <Content Include="img\bg.jpg" />
     <Content Include="img\homepage1.PNG" />
@@ -290,6 +292,7 @@
     <Content Include="img\into-pic.jpg" />
     <Content Include="img\page11.PNG" />
     <Content Include="img\page12.PNG" />
+    <Content Include="img\page13b.jpg" />
     <Content Include="img\page14.PNG" />
     <Content Include="img\page15.PNG" />
     <Content Include="img\page16.PNG" />

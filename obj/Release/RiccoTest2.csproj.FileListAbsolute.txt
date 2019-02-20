@@ -6,7 +6,6 @@ C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.
 C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.csproj.CopyComplete
 C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.dll
 C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.pdb
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.csprojAssemblyReference.cache
 C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.dll
 C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.SqlServer.dll
 C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.xml
