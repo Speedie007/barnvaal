@@ -63,9 +63,14 @@ hr {
     background: rgba(255,255,255,0.9);
     margin-bottom: 20px;
     padding: 30px 15px;
-    border-radius: 25px;
+    border-radius: 26px;
 }
 
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .intro-text {
   text-transform: uppercase;
   letter-spacing: 1px;
