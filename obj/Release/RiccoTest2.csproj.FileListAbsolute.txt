@@ -1,15 +1,3 @@
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.dll.config
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.dll
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.pdb
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Newtonsoft.Json.dll
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.csproj.CoreCompileInputs.cache
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.csproj.CopyComplete
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.dll
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.pdb
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.dll
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.SqlServer.dll
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.xml
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.SqlServer.xml
 C:\GitRepo\barnvaalnew\bin\RiccoTest2.dll.config
 C:\GitRepo\barnvaalnew\bin\RiccoTest2.dll
 C:\GitRepo\barnvaalnew\bin\RiccoTest2.pdb
@@ -19,6 +7,25 @@ C:\GitRepo\barnvaalnew\bin\Newtonsoft.Json.dll
 C:\GitRepo\barnvaalnew\bin\System.Web.Mvc.dll
 C:\GitRepo\barnvaalnew\bin\EntityFramework.xml
 C:\GitRepo\barnvaalnew\bin\EntityFramework.SqlServer.xml
+C:\GitRepo\barnvaalnew\bin\System.Web.Helpers.xml
+C:\GitRepo\barnvaalnew\bin\System.Web.Optimization.xml
+C:\GitRepo\barnvaalnew\bin\System.Web.Razor.xml
+C:\GitRepo\barnvaalnew\bin\System.Web.WebPages.xml
+C:\GitRepo\barnvaalnew\bin\System.Web.WebPages.Deployment.xml
+C:\GitRepo\barnvaalnew\bin\System.Web.WebPages.Razor.xml
+C:\GitRepo\barnvaalnew\bin\Antlr3.Runtime.pdb
+C:\GitRepo\barnvaalnew\bin\Microsoft.AspNet.Identity.Core.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.Owin.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.Owin.Security.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.Owin.Security.Facebook.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.Owin.Security.Cookies.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.Owin.Security.OAuth.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.Owin.Security.Google.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.Owin.Security.Twitter.xml
+C:\GitRepo\barnvaalnew\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\GitRepo\barnvaalnew\obj\Release\RiccoTest2.csprojAssemblyReference.cache
 C:\GitRepo\barnvaalnew\obj\Release\RiccoTest2.csproj.CoreCompileInputs.cache
 C:\GitRepo\barnvaalnew\obj\Release\RiccoTest2.csproj.CopyComplete
