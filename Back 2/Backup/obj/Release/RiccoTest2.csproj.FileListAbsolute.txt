@@ -1,0 +1,82 @@
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.dll.config
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.dll
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.pdb
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Newtonsoft.Json.dll
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.csproj.CoreCompileInputs.cache
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.csproj.CopyComplete
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.dll
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.pdb
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.dll
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.SqlServer.dll
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.xml
+C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.SqlServer.xml
+C:\GitRepo\barnvaalnew\bin\RiccoTest2.dll.config
+C:\GitRepo\barnvaalnew\bin\RiccoTest2.dll
+C:\GitRepo\barnvaalnew\bin\RiccoTest2.pdb
+C:\GitRepo\barnvaalnew\bin\EntityFramework.dll
+C:\GitRepo\barnvaalnew\bin\EntityFramework.SqlServer.dll
+C:\GitRepo\barnvaalnew\bin\Newtonsoft.Json.dll
+C:\GitRepo\barnvaalnew\bin\System.Web.Mvc.dll
+C:\GitRepo\barnvaalnew\bin\EntityFramework.xml
+C:\GitRepo\barnvaalnew\bin\EntityFramework.SqlServer.xml
+C:\GitRepo\barnvaalnew\obj\Release\RiccoTest2.csprojAssemblyReference.cache
+C:\GitRepo\barnvaalnew\obj\Release\RiccoTest2.csproj.CoreCompileInputs.cache
+C:\GitRepo\barnvaalnew\obj\Release\RiccoTest2.csproj.CopyComplete
+C:\GitRepo\barnvaalnew\obj\Release\RiccoTest2.dll
+C:\GitRepo\barnvaalnew\obj\Release\RiccoTest2.pdb
+C:\GitRepo\barnvaalnew\Backup\bin\RiccoTest2.dll.config
+C:\GitRepo\barnvaalnew\Backup\bin\RiccoTest2.dll
+C:\GitRepo\barnvaalnew\Backup\bin\RiccoTest2.pdb
+C:\GitRepo\barnvaalnew\Backup\bin\Antlr3.Runtime.dll
+C:\GitRepo\barnvaalnew\Backup\bin\EntityFramework.dll
+C:\GitRepo\barnvaalnew\Backup\bin\EntityFramework.SqlServer.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.AspNet.Identity.Core.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.Cookies.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.Facebook.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.Google.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.OAuth.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.Twitter.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Web.Infrastructure.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Newtonsoft.Json.dll
+C:\GitRepo\barnvaalnew\Backup\bin\Owin.dll
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.Helpers.dll
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.Mvc.dll
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.Optimization.dll
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.Razor.dll
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.WebPages.Deployment.dll
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.WebPages.dll
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.WebPages.Razor.dll
+C:\GitRepo\barnvaalnew\Backup\bin\WebGrease.dll
+C:\GitRepo\barnvaalnew\Backup\bin\EntityFramework.xml
+C:\GitRepo\barnvaalnew\Backup\bin\EntityFramework.SqlServer.xml
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.Helpers.xml
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.Mvc.xml
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.Optimization.xml
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.Razor.xml
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.WebPages.xml
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.WebPages.Deployment.xml
+C:\GitRepo\barnvaalnew\Backup\bin\System.Web.WebPages.Razor.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Newtonsoft.Json.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Antlr3.Runtime.pdb
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.AspNet.Identity.Core.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.Facebook.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.Cookies.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.OAuth.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.Google.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.Twitter.xml
+C:\GitRepo\barnvaalnew\Backup\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\GitRepo\barnvaalnew\Backup\obj\Release\RiccoTest2.csproj.CoreCompileInputs.cache
+C:\GitRepo\barnvaalnew\Backup\obj\Release\RiccoTest2.csproj.CopyComplete
+C:\GitRepo\barnvaalnew\Backup\obj\Release\RiccoTest2.dll
+C:\GitRepo\barnvaalnew\Backup\obj\Release\RiccoTest2.pdb

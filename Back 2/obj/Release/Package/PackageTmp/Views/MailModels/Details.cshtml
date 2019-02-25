@@ -1,0 +1,82 @@
+﻿@model RiccoTest2.Models.MailModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MailModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SMTP_HOST)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SMTP_HOST)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SMTP_PORT)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SMTP_PORT)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccountName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccountName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccountPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccountPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MessageBody)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MessageBody)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MessageSubject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MessageSubject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FromAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FromAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ToAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ToAddress)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
