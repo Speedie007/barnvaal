@@ -68,10 +68,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2019 09:19:27</publishTime>
     </File>
     <File Include="bin/RiccoTest2.dll">
-      <publishTime>02/25/2019 13:55:30</publishTime>
+      <publishTime>02/25/2019 16:23:34</publishTime>
     </File>
     <File Include="bin/RiccoTest2.pdb">
-      <publishTime>02/25/2019 13:55:30</publishTime>
+      <publishTime>02/25/2019 16:23:34</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>02/22/2019 09:19:27</publishTime>
@@ -770,7 +770,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/25/2019 08:06:38</publishTime>
     </File>
     <File Include="Views/Contact/Index.cshtml">
-      <publishTime>02/24/2019 19:15:07</publishTime>
+      <publishTime>02/25/2019 15:47:29</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>02/25/2019 12:56:36</publishTime>
@@ -821,7 +821,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2019 09:19:27</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>02/25/2019 13:56:36</publishTime>
+      <publishTime>02/25/2019 16:24:22</publishTime>
     </File>
   </ItemGroup>
 </Project>
