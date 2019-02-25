@@ -11,3 +11,4 @@ C:\GitRepo\barnvaalLatestFromRicco\obj\Release\RiccoTest2.csproj.CoreCompileInpu
 C:\GitRepo\barnvaalLatestFromRicco\obj\Release\RiccoTest2.csproj.CopyComplete
 C:\GitRepo\barnvaalLatestFromRicco\obj\Release\RiccoTest2.dll
 C:\GitRepo\barnvaalLatestFromRicco\obj\Release\RiccoTest2.pdb
+C:\GitRepo\barnvaalLatestFromRicco\obj\Release\RiccoTest2.csprojAssemblyReference.cache
