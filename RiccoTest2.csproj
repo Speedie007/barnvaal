@@ -167,6 +167,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MailModels1Controller.cs" />
     <Compile Include="Controllers\MailModelsController.cs" />
+    <Compile Include="Controllers\PhotoGalleryController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -322,6 +323,7 @@
     <Content Include="Views\MailModels1\Details.cshtml" />
     <Content Include="Views\MailModels1\Edit.cshtml" />
     <Content Include="Views\MailModels1\Index.cshtml" />
+    <Content Include="Views\PhotoGallery\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
