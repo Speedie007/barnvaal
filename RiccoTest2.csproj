@@ -204,7 +204,6 @@
     <Content Include="img\homepage8.PNG" />
     <Content Include="img\homepage9.PNG" />
     <Content Include="img\hp.jpg" />
-    <Content Include="img\images\Landscape\Inside\2.jpg" />
     <Content Include="img\images\Landscape\Outside\13.jpg" />
     <Content Include="img\images\Landscape\Outside\14.jpg" />
     <Content Include="img\images\Landscape\Outside\15.jpg" />
@@ -216,7 +215,6 @@
     <Content Include="img\images\Landscape\Outside\21.jpg" />
     <Content Include="img\images\Landscape\Outside\6.jpg" />
     <Content Include="img\images\Landscape\Outside\87.jpg" />
-    <Content Include="img\images\Portrate\Inside\1.jpg" />
     <Content Include="img\images\Portrate\Outside\10.jpg" />
     <Content Include="img\images\Portrate\Outside\11.jpg" />
     <Content Include="img\images\Portrate\Outside\12.jpg" />
@@ -327,6 +325,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="img\images\Landscape\Inside\" />
+    <Folder Include="img\images\Portrate\Inside\" />
     <Folder Include="Views\test\" />
   </ItemGroup>
   <ItemGroup>
