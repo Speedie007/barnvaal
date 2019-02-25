@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace RiccoTest2.Models
 {
@@ -21,5 +22,31 @@ namespace RiccoTest2.Models
         public virtual string ContactNumber { get; set; }
 
         public virtual string ContactPerson { get; set; }
+
+        public virtual VenueRequirement SelectedVenueRequirements { get; set; }
+
+        #region Internal Classes
+        public class VenueRequirement
+        {
+            public VenueRequirement()
+            {
+
+            }
+
+            public Boolean IsKitchenTea { get; set; }
+            public Boolean IsBabyShower { get; set; }
+            public Boolean IsBirthdayParty { get; set; }
+            public Boolean IsAnniversary { get; set; }
+            public Boolean IsSSmallIntimateWedding { get; set; }
+            public Boolean IsChristening { get; set; }
+            public Boolean IsYearEndFunction { get; set; }
+            public Boolean IsConfernece { get; set; }
+            public Boolean IsWorkShop { get; set; }
+            public Boolean IsEngaugment { get; set; }
+            public Boolean IsOtherTypeOfEvent { get; set; }
+            public string OtherTypeOfEvent { get; set; }
+        }
+
+        #endregion
     }
 }
