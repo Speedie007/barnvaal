@@ -68,10 +68,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2019 09:19:27</publishTime>
     </File>
     <File Include="bin/RiccoTest2.dll">
-      <publishTime>02/25/2019 16:23:34</publishTime>
+      <publishTime>03/01/2019 15:37:14</publishTime>
     </File>
     <File Include="bin/RiccoTest2.pdb">
-      <publishTime>02/25/2019 16:23:34</publishTime>
+      <publishTime>03/01/2019 15:37:14</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>02/22/2019 09:19:27</publishTime>
@@ -97,6 +97,165 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/WebGrease.dll">
       <publishTime>02/22/2019 09:19:27</publishTime>
     </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/26/2019 16:51:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>02/22/2019 09:19:26</publishTime>
+    </File>
+    <File Include="Content/themes/base/accordion.css">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/all.css">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/autocomplete.css">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/base.css">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/button.css">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/core.css">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/datepicker.css">
+      <publishTime>02/26/2019 17:05:25</publishTime>
+    </File>
+    <File Include="Content/themes/base/dialog.css">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/draggable.css">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_444444_256x240.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_555555_256x240.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_777620_256x240.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_777777_256x240.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cc0000_256x240.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_ffffff_256x240.png">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.css">
+      <publishTime>02/26/2019 17:06:27</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.min.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/menu.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/progressbar.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/resizable.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/selectable.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/selectmenu.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/slider.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/sortable.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/spinner.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/tabs.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/theme.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/tooltip.css">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
     <File Include="css/bootstrap-theme.css">
       <publishTime>02/22/2019 09:19:27</publishTime>
     </File>
@@ -110,7 +269,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2019 09:19:27</publishTime>
     </File>
     <File Include="css/business-casual.css">
-      <publishTime>02/25/2019 12:11:59</publishTime>
+      <publishTime>02/27/2019 12:54:17</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/22/2019 09:19:28</publishTime>
@@ -153,6 +312,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="img/bg.jpg">
       <publishTime>02/22/2019 09:19:28</publishTime>
+    </File>
+    <File Include="img/calendar.png">
+      <publishTime>02/25/2019 21:16:46</publishTime>
+    </File>
+    <File Include="img/calendar1.png">
+      <publishTime>02/25/2019 21:18:03</publishTime>
+    </File>
+    <File Include="img/email-flag.gif">
+      <publishTime>03/01/2019 09:32:24</publishTime>
     </File>
     <File Include="img/homepage1.PNG">
       <publishTime>02/22/2019 09:19:28</publishTime>
@@ -740,7 +908,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2019 09:19:29</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>02/22/2019 09:19:29</publishTime>
+      <publishTime>02/25/2019 17:28:21</publishTime>
+    </File>
+    <File Include="Scripts/ContactUs/ContactUsSubmission.js">
+      <publishTime>02/28/2019 13:46:52</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.js">
       <publishTime>02/22/2019 09:19:27</publishTime>
@@ -750,6 +921,30 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Scripts/jquery-1.10.2.min.map">
       <publishTime>02/22/2019 09:19:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>02/22/2019 09:19:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>02/22/2019 09:19:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>02/22/2019 09:19:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>02/22/2019 09:19:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>02/22/2019 09:19:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>02/22/2019 09:19:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.js">
+      <publishTime>02/25/2019 17:28:20</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.min.js">
+      <publishTime>02/25/2019 17:28:20</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
       <publishTime>02/22/2019 09:19:27</publishTime>
@@ -770,10 +965,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/25/2019 08:06:38</publishTime>
     </File>
     <File Include="Views/Contact/Index.cshtml">
-      <publishTime>02/25/2019 15:47:29</publishTime>
+      <publishTime>03/01/2019 15:37:08</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/25/2019 12:56:36</publishTime>
+      <publishTime>02/25/2019 17:32:43</publishTime>
     </File>
     <File Include="Views/MailModels/Create.cshtml">
       <publishTime>02/22/2019 09:19:27</publishTime>
@@ -806,13 +1001,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2019 09:19:27</publishTime>
     </File>
     <File Include="Views/PhotoGallery/Index.cshtml">
-      <publishTime>02/25/2019 08:43:17</publishTime>
+      <publishTime>02/26/2019 16:53:30</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>02/22/2019 09:19:27</publishTime>
     </File>
+    <File Include="Views/Shared/View.cshtml">
+      <publishTime>02/27/2019 14:59:32</publishTime>
+    </File>
+    <File Include="Views/Shared/_DatePickerDialog.cshtml">
+      <publishTime>02/27/2019 14:50:33</publishTime>
+    </File>
+    <File Include="Views/Shared/_FailureDialog.cshtml">
+      <publishTime>02/26/2019 11:47:21</publishTime>
+    </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>02/25/2019 08:31:16</publishTime>
+      <publishTime>02/27/2019 14:42:53</publishTime>
+    </File>
+    <File Include="Views/Shared/_ProcessingEmail.cshtml">
+      <publishTime>03/01/2019 10:30:01</publishTime>
+    </File>
+    <File Include="Views/Shared/_ProcessingQueryForm.cshtml">
+      <publishTime>03/01/2019 13:00:50</publishTime>
+    </File>
+    <File Include="Views/Shared/_SuccessDialog.cshtml">
+      <publishTime>02/26/2019 16:40:57</publishTime>
+    </File>
+    <File Include="Views/Shared/_UserInquiryConfirmation.cshtml">
+      <publishTime>03/01/2019 15:14:23</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>02/22/2019 09:19:27</publishTime>
@@ -821,7 +1037,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2019 09:19:27</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>02/25/2019 16:24:22</publishTime>
+      <publishTime>02/27/2019 14:19:39</publishTime>
     </File>
   </ItemGroup>
 </Project>

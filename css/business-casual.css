@@ -180,7 +180,7 @@ footer {
 }
 
 /* The Modal (background) */
-.modal {
+.modalForImage {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -231,7 +231,7 @@ footer {
 }
 
 /* The Close Button */
-.close {
+/*.close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -239,7 +239,7 @@ footer {
     font-size: 45px;
     font-weight: bold;
     transition: 0.3s;
-}
+}*/
 
     .close:hover,
     .close:focus {

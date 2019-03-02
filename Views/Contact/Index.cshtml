@@ -11,8 +11,8 @@
             <div>
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">
-                        Location
+                    <h2 class="intro-text text-center" style="font-family:Lucida Bright;">
+                        THE BARN Location
                     </h2>
                     <hr>
                 </div>
@@ -24,12 +24,12 @@
 
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" style="font-family:Lucida Bright;">
                     <p>
                         Phone: <strong>(082) 453-5814 (Amelia)</strong>
                     </p>
                     <p>
-                        Email: <strong>Amelia@BarnVaal.co.za</strong>
+                        Email: <strong>Amelia@barnvaal.co.za</strong>
                     </p>
                     <p>
                         Address: <strong><br />Manteverede AH<br />Cnr Vaal and Hally Rd<br>Vanderbijlpark.<br>Gauteng.</strong>
@@ -44,24 +44,24 @@
             <div class="col-lg-12">
                 <hr>
                 <h2 class="intro-text text-center">
-                    <p style="font-family:courier;">
-                        Contact <strong>form</strong>
+                    <p style="font-family:Lucida Bright;">
+                        Contact form
                     </p>
                 </h2>
                 <hr>
-                <p style="font-family:courier;">For any general inquiries you may have or to help make a reservation complete the form below.</p>
+
+                <div class="text-center"><p style="font-family:Lucida Bright;">We thank you for considering The Barn as a venue for your event. </p></div> <br />
+                <p style="font-family:Lucida Bright;"> For any general inquiries, or to assist you in the process of obtaining  a quotation, please complete and submit the form below.</p>
+                <br />
+
+
                 <form role="form" asp-action="index" method="post">
-                    @Html.HiddenFor(model => model.SMTP_HOST)
-                    @Html.HiddenFor(model => model.SMTP_PORT)
-                    @Html.HiddenFor(model => model.AccountName)
-                    @Html.HiddenFor(model => model.AccountPassword)
-                    @Html.HiddenFor(model => model.ToAddress)
-                    @Html.HiddenFor(model => model.MessageSubject)
+
 
                     <div class="row">
                         <div class="form-group col-lg-4">
                             <div class="panel panel-default">
-                                <div class="panel-heading">Name</div>
+                                <div class="panel-heading" style="font-family:Lucida Bright;">Name</div>
                                 <div class="panel-body">@Html.TextBox("ContactPerson", Model.ContactPerson, new { @class = "form-control" })</div>
                             </div>
 
@@ -71,386 +71,847 @@
                         </div>
                         <div class="form-group col-lg-4">
                             <div class="panel panel-default">
-                                <div class="panel-heading">Email Address</div>
+                                <div class="panel-heading" style="font-family:Lucida Bright;">Email Address</div>
                                 <div class="panel-body"> @Html.TextBox("FromAddress", Model.FromAddress, new { @class = "form-control" })</div>
                             </div>
                         </div>
                         <div class="form-group col-lg-4">
                             <div class="panel panel-default">
-                                <div class="panel-heading">Phone Number</div>
+                                <div class="panel-heading" style="font-family:Lucida Bright;">Phone Number</div>
                                 <div class="panel-body">@Html.TextBox("ContactNumber", Model.ContactNumber, new { @class = "form-control" })</div>
                             </div>
                         </div>
-                        <div class="clearfix"></div>
-                        <div class="container">
-                            <div class="row">
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row">
+                        <div class="form-group col-lg-4">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" style="font-family:Lucida Bright;">Please indicate your venue requirments below.</div>
+                                <div class="panel-body">
 
-                                <div class="form-group col-lg-4">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">Please indicate your venue requirments below.</div>
-                                        <div class="panel-body">
-                                            <div class="container">
+                                    <div class="input-group rounded" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,1);" value="Kitchen Tea" aria-label="...">
 
-                                                <div class="row">
-
-                                                    <div class="col-lg-3">
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" value="KitchenTeas" aria-label="...">
-                                                            </span>
-                                                            <div class="form-control" aria-label="...">Kitchen Tea</div>
-                                                        </div><!-- /input-group -->
-                                                        
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" value="BabyShower" aria-label="...">
-                                                            </span>
-                                                            <div class="form-control" aria-label="...">Baby Shower</div>
-                                                        </div><!-- /input-group -->
-                                                        
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" value="BirthdayParty" aria-label="...">
-                                                            </span>
-                                                            <div class="form-control" aria-label="...">Birthday Party</div>
-                                                        </div><!-- /input-group -->
-                                                        
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" value="Anniversary" aria-label="...">
-                                                            </span>
-                                                            <div class="form-control" aria-label="...">Anniversary</div>
-                                                        </div><!-- /input-group -->
-                                                        
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" value="SmallIntimateWedding" aria-label="...">
-                                                            </span>
-                                                            <div class="form-control" aria-label="...">Small, intimate wedding</div>
-                                                        </div><!-- /input-group -->
-                                                        
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" value="Christening" aria-label="...">
-                                                            </span>
-                                                            <div class="form-control" aria-label="...">Christening</div>
-                                                        </div><!-- /input-group -->
-                                                        
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" value="YearEndfunction" aria-label="...">
-                                                            </span>
-                                                            <div class="form-control" aria-label="...">Year-End function</div>
-                                                        </div><!-- /input-group -->
-                                                        
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" value="Conference" aria-label="...">
-                                                            </span>
-                                                            <div class="form-control" aria-label="...">Conference</div>
-                                                        </div><!-- /input-group -->
-                                                        
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" value="Workshop" aria-label="...">
-                                                            </span>
-                                                            <div class="form-control" aria-label="...">Workshop</div>
-                                                        </div><!-- /input-group -->
-                                                        
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" value="Engangment" aria-label="...">
-                                                            </span>
-                                                            <div class="form-control" aria-label="...">Engangment</div>
-                                                        </div><!-- /input-group -->
-                                                        
-                                                        <div class="input-group" style="padding-bottom:5px;">
-                                                            <span class="  input-group-addon">
-                                                                <input type="checkbox" nowrap value="Other" aria-label="...">
-                                                            </span>
-
-                                                            <div class="form-control" nowrap aria-label="...">Other (Add description below)</div>
-                                                            <div><textarea style="width:100%;" rows="3"></textarea></div>
-                                                        </div><!-- /input-group -->
-
-                                                        <br />
-                                                    </div>
-                                                </div>
+                                        </span>
+                                        <div class="form-control" aria-label="...">
+                                            Kitchen Tea
+                                            <div id="VenueRequirmentItemDateLink_1" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(1)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">Please indicate which day the the venue is required.</div>
-                                        <div class="panel-body">
-                                            <div class="row">
-                                                <div class="col-lg-10">
-                                                    <div class="input-group" style="padding-bottom:5px;">
-                                                        <span class="  input-group-addon">
-                                                            <input type="checkbox" value="Monday" aria-label="...">
-                                                        </span>
-                                                        <div class="form-control" aria-label="...">Monday</div>
-                                                    </div>
-
-                                                    <div class="input-group" style="padding-bottom:5px;">
-                                                        <span class="  input-group-addon">
-                                                            <input type="checkbox" value="Tuesday" aria-label="...">
-                                                        </span>
-                                                        <div class="form-control" aria-label="...">Tuesday</div>
-                                                    </div>
-                                                    
-                                                    <div class="input-group" style="padding-bottom:5px;">
-                                                        <span class="  input-group-addon">
-                                                            <input type="checkbox" value="Wednesday" aria-label="...">
-                                                        </span>
-                                                        <div class="form-control" aria-label="...">Wednesday</div>
-                                                    </div>
-                                                    
-                                                    <div class="input-group" style="padding-bottom:5px;">
-                                                        <span class="  input-group-addon">
-                                                            <input type="checkbox" value="Thursday" aria-label="...">
-                                                        </span>
-                                                        <div class="form-control" aria-label="...">Thursday</div>
-                                                    </div>
-                                                    
-                                                    <div class="input-group" style="padding-bottom:5px;">
-                                                        <span class="  input-group-addon">
-                                                            <input type="checkbox" value="Friday" aria-label="...">
-                                                        </span>
-                                                        <div class="form-control" aria-label="...">Friday</div>
-                                                    </div>
-                                                    
-                                                    <div class="input-group" style="padding-bottom:5px;">
-                                                        <span class="  input-group-addon">
-                                                            <input type="checkbox" value="Saturday" aria-label="...">
-                                                        </span>
-                                                        <div class="form-control" aria-label="...">Saturday</div>
-                                                    </div>
-                                                    
-                                                    <div class="input-group" style="padding-bottom:5px;">
-                                                        <span class="  input-group-addon">
-                                                            <input type="checkbox" value="Sunday" aria-label="...">
-                                                        </span>
-                                                        <div class="form-control" aria-label="...">Sunday</div>
-                                                    </div>
-
-                                                </div>
-
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_1">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_1"></div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-
-                                <div class=" col-lg-8">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">Optional Extras to choose from</div>
-                                        <div class="panel-body">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="col-lg-7">
-                                                        <div class="table-responsive">
-                                                            <table class="table table-condensed">
-                                                                <thead>
-                                                                    <tr>
-                                                                        <th>Option</th>
-                                                                        <th><b><u> Package incudes</u>:</b></th>
-
-                                                                    </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">Cutlery and Crockery</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td>
-                                                                            Silver under-plates, enamel plates, enamel desert bowl, salad plate, cake plates, console type glasses and nametags that compliments the Barn theme, knives, forks, dessert spoons, teaspoons, cake forks and white damask serviettes.
-                                                                        </td>
-
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">Table Settings</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td>
-                                                                            The Barn team set your tables.  <br />Everything is ready with your arrival. We include Ivy vines for decoration.
-                                                                        </td>
-
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">Table cloths</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td>
-                                                                            Callico and Burlap runners (set of  2)
-                                                                        </td>
-
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">Wooden Slabs.</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td>
-                                                                            Wooden Slabs used as centre pieces on your tables.
-                                                                        </td>
-
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">Consol Bottels</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td>
-                                                                            Console bottles with tea candles used as centre pieces.
-                                                                        </td>
-
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">Silver Underplates</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td>
-                                                                            We include a separate Silver Under plate price, should you want to hire them separately. Some clients for instance want to use the caterer’s cutlery and crockery, but they still want us to set the tables for them. Caterers do not usually include Silver under plates, in which case you are welcome to hire them from us.
-                                                                        </td>
-
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">White brocade Serviettes</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td>
-                                                                            We include a separate serviette price as well should you want to hire them separately.  Some clients for instance want to use the caterer’s cutlery and crockery, but they still want us to set the tables for them.  Caterers do not usually include White Serviettes, in which case you are welcome to hire them from us.
-                                                                        </td>
-
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">Cup Cake Stands</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td> Three-tier wooden cupcake stands.</td>
-
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">Proxima</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td>
-                                                                            You can use our Proxima system.  Usually for conferences, but some clients want to show pictures when doing an anniversary party, of children’s party, baby shower and in some cases kitchen teas.
-                                                                        </td>
-
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">Coffee Bar</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td>
-                                                                            The Barn reserves the right to serve her customers with bottomless coffee.  A selection of different coffees and teas available.  We also provide beautiful enamel cups and enamel teaspoons specially selected to compliment the theme.
-                                                                        </td>
-
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td nowrap>
-                                                                            <div class="input-group">
-                                                                                <span class="input-group-addon">
-                                                                                    <input type="checkbox" value="Kitchen Teas" aria-label="...">
-                                                                                </span>
-                                                                                <div class="form-control" aria-label="...">Special Decor</div>
-                                                                            </div><!-- /input-group -->
-                                                                        </td>
-                                                                        <td>
-                                                                            Some clients want to have special décor for instance in the case of Baby Showers and Kitchen Teas.  We will be able to assist and supply you with a quotation for these should you require it.
-                                                                        </td>
-
-                                                                    </tr>
-
-                                                                </tbody>
-                                                            </table>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
+                                    </div><!-- /input-group -->
+                                    <div class="input-group" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,2);" value="Baby Shower" aria-label="...">
+                                        </span>
+                                        <div class="form-control" aria-label="...">
+                                            Baby Shower
+                                            <div id="VenueRequirmentItemDateLink_2" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(2)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
                                             </div>
-
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_2">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_2"></div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </div><!-- /input-group -->
+                                    <div class="input-group" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,3);" value="Birthday Party" aria-label="...">
+                                        </span>
+                                        <div class="form-control" aria-label="...">
+                                            Birthday Party
+                                            <div id="VenueRequirmentItemDateLink_3" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(3)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_3">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_3"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /input-group -->
+
+                                    <div class="input-group" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,4);" value="Anniversary" aria-label="...">
+                                        </span>
+                                        <div class="form-control" aria-label="...">
+                                            Anniversary
+                                            <div id="VenueRequirmentItemDateLink_4" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(4)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_4">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_4"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /input-group -->
+
+                                    <div class="input-group" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,5);" value="SmallIntimateWedding" aria-label="...">
+                                        </span>
+                                        <div class="form-control" aria-label="...">
+                                            Small, intimate wedding
+                                            <div id="VenueRequirmentItemDateLink_5" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(5)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_5">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_5"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /input-group -->
+
+                                    <div class="input-group" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,6);" value="Christening" aria-label="...">
+                                        </span>
+                                        <div class="form-control" aria-label="...">
+                                            Christening
+                                            <div id="VenueRequirmentItemDateLink_6" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(6)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_6">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_6"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /input-group -->
+
+                                    <div class="input-group" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,7);" value="YearEndfunction" aria-label="...">
+                                        </span>
+                                        <div class="form-control" aria-label="...">
+                                            Year-End function
+                                            <div id="VenueRequirmentItemDateLink_7" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(7)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_7">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_7"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /input-group -->
+
+                                    <div class="input-group" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,8);" value="Conference" aria-label="...">
+                                        </span>
+                                        <div class="form-control" aria-label="...">
+                                            Conference
+                                            <div id="VenueRequirmentItemDateLink_8" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(8)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_8">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_8"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /input-group -->
+
+                                    <div class="input-group" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,9);" value="Workshop" aria-label="...">
+                                        </span>
+                                        <div class="form-control" aria-label="...">
+                                            Workshop
+                                            <div id="VenueRequirmentItemDateLink_9" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(9)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_9">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_9"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /input-group -->
+
+                                    <div class="input-group" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,10);" value="Engangment" aria-label="...">
+                                        </span>
+                                        <div class="form-control" aria-label="...">
+                                            Engangment
+                                            <div id="VenueRequirmentItemDateLink_10" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(10)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_10">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_10"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /input-group -->
+
+                                    <div class="input-group" style="margin-bottom:10px;">
+                                        <span class="  input-group-addon">
+                                            <input type="checkbox" onchange="ShowDateSelection(this,11);" nowrap value="Other" aria-label="...">
+                                        </span>
+
+                                        <div class="form-control" nowrap aria-label="...">
+                                            Other (Add below)
+                                            <div id="VenueRequirmentItemDateLink_11" class="pull-right" style="display:none;">
+                                                <button type="button" class="btn-link btn-outline-light btn-info pull-right " onclick="showDateSelector(11)"><span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Select Date(s)</button>
+                                            </div>
+                                        </div>
+                                        <div><textarea style="width:100%;" rows="3"></textarea></div>
+
+                                        <div class="clearfix"></div>
+                                        <div style="border:1px solid #dcdcdc;display:none;" id="VenueRequirmentItemSelectedDate_11">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading"><ul><b>Possible Date(s):</b></ul></div>
+                                                <div class="text-left " id="PossibleDates_11"></div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /input-group -->
                                 </div>
                             </div>
 
                         </div>
 
+                        <div class=" col-lg-8">
+                            <div class="panel panel-default">
+                                <div class="panel-heading " style=" font-family:Lucida Bright;">Optional Extras to choose from</div>
+                                <div class="panel-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-7">
+                                                <div class="table-responsive">
+                                                    <table class="table table-condensed">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Option</th>
+                                                                <th><b><u> Package incudes</u>:</b></th>
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="Cutlery and Crockery" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">Cutlery and Crockery</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td>
+                                                                    Silver under-plates, enamel plates, enamel desert bowl, salad plate,
+                                                                    cake plates, console type glasses and nametags that compliments the Barn theme,
+                                                                    knives, forks, dessert spoons, teaspoons, cake forks and white damask serviettes.
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="Table Settings" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">Table Settings</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td>
+                                                                    The Barn team set your tables.  <br />Everything is ready with your arrival. We include Ivy vines for decoration.
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="Table cloths" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">Table cloths</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td>
+                                                                    Callico and Burlap runners (set of  2)
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="Wooden Slabs" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">Wooden Slabs.</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td>
+                                                                    Wooden Slabs used as centre pieces on your tables.
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="Consol Bottels" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">Consol Bottels</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td>
+                                                                    Console bottles with tea candles used as centre pieces.
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="Silver Underplates" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">Silver Underplates</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td>
+                                                                    We include a separate Silver Under plate price, should you want to hire them separately. Some clients for instance want to use the caterer’s cutlery and crockery, but they still want us to set the tables for them. Caterers do not usually include Silver under plates, in which case you are welcome to hire them from us.
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="White brocade Serviettes" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">White brocade Serviettes</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td>
+                                                                    We include a separate serviette price as well should you want to hire them separately.  Some clients for instance want to use the caterer’s cutlery and crockery, but they still want us to set the tables for them.  Caterers do not usually include White Serviettes, in which case you are welcome to hire them from us.
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="Cup Cake Stands" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">Cup Cake Stands</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td> Three-tier wooden cupcake stands.</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="Proxima" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">Proxima</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td>
+                                                                    You can use our Proxima system.  Usually for conferences, but some clients want to show pictures when doing an anniversary party, of children’s party, baby shower and in some cases kitchen teas.
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="Coffee Bar" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">Coffee Bar</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td>
+                                                                    The Barn reserves the right to serve her customers with bottomless coffee.  A selection of different coffees and teas available.  We also provide beautiful enamel cups and enamel teaspoons specially selected to compliment the theme.
+                                                                </td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td nowrap>
+                                                                    <div class="input-group">
+                                                                        <span class="input-group-addon">
+                                                                            <input type="checkbox" onclick="ProcessOptionalExtra(this);" value="Special Decor" aria-label="...">
+                                                                        </span>
+                                                                        <div class="form-control" aria-label="...">Special Decor</div>
+                                                                    </div><!-- /input-group -->
+                                                                </td>
+                                                                <td>
+                                                                    Some clients want to have special décor for instance in the case of Baby Showers and Kitchen Teas.  We will be able to assist and supply you with a quotation for these should you require it.
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="form-group col-lg-12">
                             <div class="panel panel-default">
                                 <div class="panel-heading">Message</div>
                                 <div class="panel-body">@Html.TextArea("MessageBody", Model.MessageBody, 6, 1, new { @class = "form-control" })</div>
                             </div>
-
-
-
                         </div>
                         @*<div class="form-group col-lg-12">
                                 <input type="hidden" value="contact" name="save">
                                 <button class="btn btn-default" type="submit">Submit</button>
                             </div>*@
-                        <div class="form-group">
-                            <input type="submit" value="Submit Query" class="btn btn-primary " style="float: right; width : 250px; font-size: 15px;" />
-                        </div>
+
+
+
+                    </div>
+                    <div class="form-group">
+
                     </div>
                 </form>
+                @using (Html.BeginForm("index", "Contact", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.HiddenFor(model => model.SMTP_HOST, new { id = "hid_SMTP_HOST" })
+                    @Html.HiddenFor(model => model.SMTP_PORT, new { id = "hid_SMTP_PORT" })
+                    @Html.HiddenFor(model => model.AccountName, new { id = "hid_AccountName" })
+                    @Html.HiddenFor(model => model.AccountPassword, new { id = "hid_AccountPassword" })
+                    @Html.HiddenFor(model => model.ToAddress, new { id = "hid_ToAddress" })
+                    @Html.HiddenFor(model => model.MessageSubject, new { id = "hid_MessageSubject" })
+                }
+                <input value="Submit Inquiry" onclick="ShowInquiryConfirmation();" class="btn btn-primary " style="float: right; width : 250px; font-size: 15px;" />
             </div>
         </div>
     </div>
 </div>
+
+@Html.Partial("_DatePickerDialog")
+@Html.Partial("_ProcessingEmail")
+@Html.Partial("_UserInquiryConfirmation")
+
+
+@section scripts{
+    <script>
+        /*Eample of Venue Request Items
+        RequestItems = [{
+                    SelectedVenueID: 1,
+                    SelectedVenueRequirement: "KitchenTea",
+                    RequestedDates: [ "", "" ]
+        }]
+
+     //_FormItems.RequestItems =
+            //    [
+            //        {
+            //            Index: 1,
+            //            SelectedVenueRequirement: "KitchenTea",
+            //            RequestedDates: ["june","july"]
+            //        }
+            //    ];
+        */
+        /****************************
+         * This SEction is fthe methods for the optional extra items
+         * */
+
+        function AddOptionalExtraItem(chkObj) {
+            var item = { OptionalExtraItem: $(chkObj).val() };
+            _FormItems.OptionalExtras.push(item);
+        }
+        function RemoveOptionalExtraItem(chkObj) {
+            iIndexToRemove = -1;
+            jQuery.each(_FormItems.OptionalExtras, function (CurrentIndex, ExtraItem) {
+                if (ExtraItem.OptionalExtraItem == $(chkObj).val()) {
+                    iIndexToRemove = CurrentIndex;
+                }
+            });
+
+            if (iIndexToRemove != -1) {
+                _FormItems.OptionalExtras.splice(iIndexToRemove, 1);
+            }
+        }
+        function ProcessOptionalExtra(chkObj) {
+            if ($(chkObj).prop("checked")) {
+                AddOptionalExtraItem(chkObj);
+            } else {
+                RemoveOptionalExtraItem(chkObj);
+            }
+        }
+
+        /***
+         * This is end of optional extra section.
+         * */
+
+
+        var _FormItems = JSON.parse('{}');
+
+        function AddSelectedDateToRequestedItem() {
+
+
+            jQuery.each(_FormItems.RequestItems, function (iIndex, RequestObj) {
+                if (RequestObj.Index == _CurrentlySelected) {
+                    if (!CheckIfDateAlreadyAdded(RequestObj)) {//check that the date does not already exist.
+                        if ($("#datepicker").val().length > 0) {
+                            RequestObj.RequestedDates.push($("#datepicker").val());
+                            $("#DateMessage").html("Date Successfully Added. ").css("color", "green").fadeIn("fast", "swing", function () {
+                                $("#DateMessage").fadeOut(3000);
+                            });
+                        } else {
+                            $("#DateMessage").html("Please select a date before adding.").css("color", "red").fadeIn("fast", "swing", function () {
+                                $("#DateMessage").fadeOut(3000);
+                            });
+
+                        }
+
+                        //var sHtml = "";
+                        //jQuery.each(RequestObj.RequestedDates, function (i, val) {
+                        //    if (sHtml.length > 0) {
+                        //        sHtml += "<br/>";
+                        //    }
+                        //    sHtml += val;
+                        //    BuildPossibleDateDislpay
+                        //});
+                        //$("#PossibleDates_" + _CurrentlySelected).html(sHtml);
+                    }
+                }
+            });
+            BuildPossibleDateDislpay();
+        }
+
+        function CheckIfDateAlreadyAdded(RequestObj) {
+            var Check = false;
+            jQuery.each(RequestObj.RequestedDates, function (i, val) {
+
+                RequestObj.RequestedDates
+                if ($("#datepicker").val() == val) {
+                    Check = true;
+                    $("#DateMessage").html("Date Already Been Added To List.").css("color", "orange").fadeIn("fast", "swing", function () {
+                        $("#DateMessage").fadeOut(3000);
+                    });
+                }
+            });
+            return Check;
+        }
+
+        function intialise_FormItemsDataStructure() {
+            _FormItems.SMTP_HOST = $("#hid_SMTP_HOST").val();
+            _FormItems.SMTP_PORT = $("#hid_SMTP_PORT").val();
+            _FormItems.AccountName = $("#hid_AccountName").val();
+            _FormItems.AccountPassword = $("#hid_AccountPassword").val();
+
+            _FormItems.ToAddress = $("#hid_ToAddress").val();
+            _FormItems.MessageBody = $("#MessageBody").val();
+            _FormItems.MessageSubject = $("#hid_MessageSubject").val();
+            _FormItems.FromAddress = $("#FromAddress").val();
+            _FormItems.ContactNumber = $("#ContactNumber").val();
+            _FormItems.ContactPerson = $("#ContactPerson").val();
+            _FormItems.RequestItems = [];
+            _FormItems.OptionalExtras = [];
+
+        }
+
+        function ShowInquiryConfirmation() {
+
+            /******
+             *Populate the Confirmation Form
+             * */
+            //$("#MessageBody").val();
+            $("#ConfirmationMessage").html($("#MessageBody").val());
+            $("#ConfirmationEmailAddress").val($("#FromAddress").val());
+            $("#ConfirmationContactNumber").val($("#ContactNumber").val());
+            $("#ConfirmationName").val($("#ContactPerson").val());
+
+            var tblBodyConfirmationVenueRequirmentTable = $('#ConfirmationVenueRequirmentTable > tbody');
+            var tblBodyConfirmationOptionalExtraTable = $('#ConfirmationOptionalExtraTable > tbody');
+
+            tblBodyConfirmationVenueRequirmentTable.html('');
+            tblBodyConfirmationOptionalExtraTable.html('');
+
+            var sHtml_tr_VenueRequirement = "";
+            var sHtml_tr_OptionaExtra = "";
+
+            if (_FormItems.RequestItems.length > 0) {
+                jQuery.each(_FormItems.RequestItems, function (iIndex, RequestObj) {
+
+                    sHtml_tr_VenueRequirement += '<tr>';
+                    sHtml_tr_VenueRequirement += ' <td>';
+                    sHtml_tr_VenueRequirement += '<div style="font-family:Lucida Bright;">' + RequestObj.SelectedVenueRequirement + '</div>';
+                    sHtml_tr_VenueRequirement += '</td>';
+                    sHtml_tr_VenueRequirement += '<td>';
+
+
+
+                    if (RequestObj.RequestedDates.length == 0) {
+                        //build none selcted.
+
+                        sHtml_tr_VenueRequirement += 'None Currenlty Selected.';
+                        sHtml_tr_VenueRequirement += '</td>';
+                        $("#PossibleDates_" + _CurrentlySelected).css("color", "red").html("");
+                    } else {
+                        //build dates to display
+                        jQuery.each(RequestObj.RequestedDates, function (i, val) {
+                            if (i > 0) {
+                                sHtml_tr_VenueRequirement += '<br/>';
+                            }
+
+                            sHtml_tr_VenueRequirement += (i + 1) + ': ' + val;
+
+                        });
+                    }
+
+                    //Close table Row.
+                    sHtml_tr_VenueRequirement += '</td>';
+                    sHtml_tr_VenueRequirement += '</tr>';
+                });
+            } else {
+                var sHtml_tr_VenueRequirement = "<tr><td colspan='2'>None Selected.</td></tr>";
+            }
+
+            if (_FormItems.OptionalExtras.length > 0) {
+                jQuery.each(_FormItems.OptionalExtras, function (iIndex, ExtraObj) {
+
+                    sHtml_tr_OptionaExtra += '<tr>';
+                    sHtml_tr_OptionaExtra += ' <td>';
+                    sHtml_tr_OptionaExtra += '<div style="font-family:Lucida Bright;">' + ExtraObj.OptionalExtraItem + '</div>';
+                    sHtml_tr_OptionaExtra += '</td>';
+                    sHtml_tr_OptionaExtra += '<td>';
+                });
+
+            } else {
+                var sHtml_tr_OptionaExtra = "<tr><td colspan='2'>None Selected.</td></tr>";
+            }
+
+            tblBodyConfirmationVenueRequirmentTable.html(sHtml_tr_VenueRequirement);
+
+            tblBodyConfirmationOptionalExtraTable.html(sHtml_tr_OptionaExtra);
+
+            $('#CustomerInquiryConfirmationModal').modal('show');
+        }
+        function SendContactUsFormDetails() {
+
+
+
+
+            $('#ProcessingEmailModal').modal('show');
+
+            var AutoCloseEmailProcessingDialog = function () {
+                setTimeout(function () { $('#ProcessingEmailModal').modal('hide'); }, 5000);
+            };
+            AutoCloseEmailProcessingDialog();
+
+        }
+
+        function sendEmail() {
+
+            //Create Json Object
+            var DataObj = JSON.parse('{}');
+
+            var ajaxCallURL = window.rootUrl + 'Contact/SendWebForm';
+
+
+            _FormItems.MessageBody = $("#MessageBody").val();
+            _FormItems.MessageSubject = $("#hid_MessageSubject").val();
+            _FormItems.FromAddress = $("#FromAddress").val();
+            _FormItems.ContactNumber = $("#ContactNumber").val();
+            _FormItems.ContactPerson = $("#ContactPerson").val();
+
+
+
+            $.ajax({
+                type: "POST",
+                url: ajaxCallURL,
+                data: JSON.stringify(_FormItems),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    //alert();
+                    // $("#ProcessFileRequestNotificationModal").modal("hide");
+                    //
+                    //var rtn = JSON.parse(data);
+                    var s = data.Message;
+                    //
+
+                    $('#SuccessConfiramtionMessage').html(data.Message);
+
+                    $('#SuccessConfirmationModal').modal('show');
+                    //SetTabIndex(_AcceptFileRequestNotifictionViewModel.TabIndex);
+                    var f = function () {
+                        setTimeout(function () {
+                            $('#SuccessConfirmationModal').modal('hide');
+                        }, 7500);
+                    };
+                    f();
+                },
+                error: function (xhr, textStatus, error) {
+
+                    $('#FailureConfiramtionMessage').html(error);
+                    //$('#ShowFileRequerstNotificationConfirmationModal').modal(options);
+                    $('#FailureConfirmationModal').modal('show');
+
+                }
+            });
+
+
+        }
+
+
+
+        var _CurrentlySelected = -1;
+
+        function BuildPossibleDateDislpay() {
+            var sHtml = "";
+
+            jQuery.each(_FormItems.RequestItems, function (iIndex, RequestObj) {
+
+                if (RequestObj.Index == _CurrentlySelected) {
+
+                    if (RequestObj.RequestedDates.length == 0) {
+                        //build none selcted.
+                        $("#PossibleDates_" + _CurrentlySelected).css("color", "red").html("None Currenlty Selected.");
+                    } else {
+                        //build dates to display
+                        jQuery.each(RequestObj.RequestedDates, function (i, val) {
+                            if (sHtml.length > 0) {
+                                sHtml += '<span class="form-horizontal" />';
+                            }
+
+                            sHtml += '<div class="row" style="padding-top:2px; margin-bottom:2px;">';
+                            sHtml += '<div class="col-lg-10">' + val + '</div>';
+                            sHtml += '<div class="col-lg-2">';
+                            //sHtml += '<button type="button" class="btn-danger btn-sm" >';
+                            sHtml += '<span onclick="removeSelectedDateFromPossibleDates(' + RequestObj.Index + ',' + i + ');"  class="glyphicon glyphicon-remove" style="color:red;cursor:pointer;" aria-hidden="true"></span>';
+                            // sHtml += '</button>';
+                            sHtml += '</div>';
+                            sHtml += '</div>';
+
+                        });
+                        $("#PossibleDates_" + _CurrentlySelected).hide();
+                        $("#PossibleDates_" + _CurrentlySelected).fadeIn().css("color", "black").html(sHtml);
+                        $("#PossibleDates_" + _CurrentlySelected).show("slow");
+
+                    }
+
+                }
+            });
+        }
+
+        function ShowDateSelection(chkObj, iIndex) {
+            _CurrentlySelected = iIndex;
+            if ($(chkObj).prop("checked")) {
+
+                $("#VenueRequirmentItemDateLink_" + iIndex).toggle();
+                $("#VenueRequirmentItemSelectedDate_" + iIndex).toggle();
+                //adds items to the list
+                _FormItems.RequestItems.push({
+                    Index: iIndex,
+                    SelectedVenueRequirement: $(chkObj).val(),
+                    RequestedDates: []
+                });
+            } else {
+                var iIndexToRemove = -1;
+                jQuery.each(_FormItems.RequestItems, function (CurrentIndex, RequestObj) {
+                    if (RequestObj.Index == iIndex) {
+                        iIndexToRemove = CurrentIndex;
+
+                    }
+                });
+
+                //$("#PossibleDates_" + iIndex).html("None Currenlty Selected.");
+
+                _FormItems.RequestItems.splice(iIndexToRemove, 1);
+                $("#VenueRequirmentItemDateLink_" + iIndex).toggle();
+                $("#VenueRequirmentItemSelectedDate_" + iIndex).toggle();
+            }
+            BuildPossibleDateDislpay();
+        }
+
+        function showDateSelector(iIndex) {
+            _CurrentlySelected = iIndex;
+            $('#datepicker').datepicker('setDate', null);
+            $("#DateSelectionModal").modal("show");
+        }
+
+        function hideDateSelector() {
+            $("#myBtn").click(function () {
+                $("#myModal").modal("hide");
+            });
+        }
+
+        function removeSelectedDateFromPossibleDates(iSelectedItem, iIndexToRemove) {
+
+            jQuery.each(_FormItems.RequestItems, function (iIndex, RequestObj) {
+                if (RequestObj.Index == iSelectedItem) {
+
+                    RequestObj.RequestedDates.splice(iIndexToRemove, 1);
+                }
+            });
+            _CurrentlySelected = iSelectedItem;
+            BuildPossibleDateDislpay();
+        }
+        var _MustSend = true;
+        function closeFormConfirmationSummarryPage() {
+            _MustSend = false;
+            $('#CustomerInquiryConfirmationModal').modal('hide');
+        }
+        $(function () {
+            $("#datepicker").datepicker({
+                showOn: "button",
+                buttonImage: "../img/calendar1.png",
+                buttonImageOnly: true,
+                dateFormat: "DD, d MM, yy",
+                buttonText: "Please select the date you wish to use the venue."
+            });
+
+            intialise_FormItemsDataStructure();
+
+            $("#CustomerInquiryConfirmationModal").on('hidden.bs.modal', function () {
+                if (_MustSend) {
+                    SendContactUsFormDetails();
+                }
+                _MustSend = true;
+            });
+
+            $("#ProcessingEmailModal").on('hidden.bs.modal', function () {
+                sendEmail();
+            });
+        });
+
+    </script>
+}
 

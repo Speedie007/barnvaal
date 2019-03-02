@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.dll.config
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.dll
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\RiccoTest2.pdb
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.dll
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.SqlServer.dll
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\Newtonsoft.Json.dll
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.xml
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\bin\EntityFramework.SqlServer.xml
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.csprojAssemblyReference.cache
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.csproj.CoreCompileInputs.cache
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.csproj.CopyComplete
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.dll
-C:\Users\ricco\Documents\GitHub\Testing website\barnvaal\obj\Release\RiccoTest2.pdb
-=======
 C:\GitRepo\barnvaalLatestFromRicco\bin\RiccoTest2.dll.config
 C:\GitRepo\barnvaalLatestFromRicco\bin\RiccoTest2.dll
 C:\GitRepo\barnvaalLatestFromRicco\bin\RiccoTest2.pdb
@@ -27,4 +12,3 @@ C:\GitRepo\barnvaalLatestFromRicco\obj\Release\RiccoTest2.csproj.CopyComplete
 C:\GitRepo\barnvaalLatestFromRicco\obj\Release\RiccoTest2.dll
 C:\GitRepo\barnvaalLatestFromRicco\obj\Release\RiccoTest2.pdb
 C:\GitRepo\barnvaalLatestFromRicco\obj\Release\RiccoTest2.csprojAssemblyReference.cache
->>>>>>> 1bf23aa4d7241306273075ac012edf79707c5c97

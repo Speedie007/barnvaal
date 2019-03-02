@@ -1,0 +1,46 @@
+﻿<!-- Modal -->
+<div class="modal fade" id="DateSelectionModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 style="color:grey;font-family:Lucida Bright;"><span class="glyphicon glyphicon-envelope"></span> Processing</h4>
+            </div>
+            <div class="modal-body">
+                <div class="panel panel-default ">
+                    <div class="panel-heading " style="font-family:Lucida Bright;">Process Inquiry.</div>
+
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+
+                                <div class="input-group" style="padding-bottom:10px;">
+                                    <div class="input-group-addon top">Date</div>
+
+                                    <input type="text" class="form-control" style="width:275px;" id="datepicker" />
+
+                                </div><!-- /input-group -->
+                                <hr />
+                                <div id="DateMessage" style="color:red;" class="pull-left"></div>
+
+                                <button type="button" class="btn btn-outline-light btn-info pull-right" onclick="AddSelectedDateToRequestedItem();">
+                                    <span class="glyphicon glyphicon-plus-sign" style="cursor:pointer;" aria-hidden="true"></span> Add Date
+                                </button>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <br />
+            </div>
+
+            @*<div class="modal-footer">
+                <button class="btn btn-default btn-default " data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                </div>*@
+        </div>
+    </div>
+</div>

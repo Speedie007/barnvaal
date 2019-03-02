@@ -1,0 +1,186 @@
+﻿<!-- Modal -->
+<div class="modal fade" id="CustomerInquiryConfirmationModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 style="color:Highlight;"><span class="glyphicon glyphicon-info-sign"></span> Inquiry Summary</h4>
+            </div>
+            <div class="modal-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+
+                            Thank you.
+
+                        </h4>
+                    </div>
+                    <div class="panel-body">
+                        Please take a moment to review your selection to ensure the details are completed correctly. This will help ensure that we can assist you correctly.
+                        If you wish to make adjustments simply select [Back to form], else submit Inquiry.
+                    </div>
+                </div>
+                <div class="panel-group" id="accordion">
+                    @*<div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                        Thank you.
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    Please take a moment to review your selection to ensure the details are completed correctly. This will help ensure that we can assist you correctly.
+                                    If you wish to make adjustments simply cancel, else submit Inquiry.
+                                </div>
+                            </div>
+                        </div>*@
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                    Your Details
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse in">
+                            <div class="panel-body">
+
+                                <table class="table table-responsive" id="ConfirmationPersonDetailsTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Item</th>
+                                            <th>Detail</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div style="font-family:Lucida Bright;">Name</div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" readonly="readonly" value="testsdf" id="ConfirmationName" />
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div style="font-family:Lucida Bright;">Email Address</div>
+                                            </td>
+                                            <td>
+                                                <input type="email" class="form-control" readonly="readonly" value="testsdf@sada.com" id="ConfirmationEmailAddress" />
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div style="font-family:Lucida Bright;">Contact Number</div>
+                                            </td>
+                                            <td>
+                                                <input type="text" class="form-control" readonly="readonly" value="testsdf" id="ConfirmationContactNumber" />
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div style="font-family:Lucida Bright;">Message</div>
+                                            </td>
+                                            <td>
+                                                <div id="ConfirmationMessage">None.</div>
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                    Venue Requirements SElected
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+
+                                <table class="table table-responsive" id="ConfirmationVenueRequirmentTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Venue Requirement</th>
+                                            <th>Dates</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div style="font-family:Lucida Bright;">Name</div>
+                                            </td>
+                                            <td>
+                                                1: Thursday, 14 March, 2019
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div style="font-family:Lucida Bright;">Name</div>
+                                            </td>
+                                            <td>
+                                                1: Thursday, 14 March, 2019<br />
+                                                2: Thursday, 14 March, 2019
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                    Optional Extra(s) Selected
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table table-responsive" id="ConfirmationOptionalExtraTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Optional Extra</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div style="font-family:Lucida Bright;">[Item]</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default btn-success " data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Submit</button>
+                <button class="btn btn-danger btn-default pull-left" onclick="closeFormConfirmationSummarryPage();"><span class="glyphicon glyphicon-remove"></span> Back to form</button>
+            </div>
+        </div>
+    </div>
+</div>

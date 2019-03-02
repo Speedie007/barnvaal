@@ -9,6 +9,7 @@
     <title>@ViewBag.Title</title>
     <!-- Bootstrap core CSS -->
     <link href="@Url.Content("~/css/bootstrap.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/themes/base/jquery-ui.css")" rel="stylesheet" />
     <link href="@Url.Content("~/css/business-casual.css")" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -36,9 +37,11 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="font-family:Lucida Bright;">
+                <ul class="nav navbar-nav" >
                     <li>
+
+
                         @Html.ActionLink("Home", "Index", "Home")
                     </li>
                     <li>
@@ -69,8 +72,22 @@
         </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    @Html.Partial("_SuccessDialog")
+    @Html.Partial("_FailureDialog")
+
+
+
+
+    <script src=@Url.Content("~/Scripts/jquery-3.3.1.js")></script>
+    <script src=@Url.Content("~/Scripts/jquery-ui-1.12.1.js")></script>
     <script src="@Url.Content("~/js/bootstrap.js")"></script>
+
+    <script src=@Url.Content("~/Scripts/ContactUs/ContactUsSubmission.js")></script>
+
+    <script>
+            window.rootUrl = '@Url.Content("~/")';
+    </script>
+
     @RenderSection("scripts", false)
 </body>
 </html>
